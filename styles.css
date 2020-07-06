@@ -13,7 +13,7 @@
 .results{
     grid-row: 1;
     grid-column:1/6;
-    background-color: #C8CC92;
+    background-color: #5A5353;
 }
 .input_field{
     grid-row:2;
@@ -22,9 +22,15 @@
 }
 #get_result{
     grid-column: 5/6;
-    grid-row:3/7;
+    grid-row:4/7;
 }
 
 #get_result{
+    background-color: #E6CCBE;
+}
+#clear {
     background-color: #A07178;
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero {
+    background-color:lightgrey;
 }
