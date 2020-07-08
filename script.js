@@ -15,7 +15,7 @@ const add = document.querySelector("#add");
 const substract = document.querySelector("#substract");
 const multiply = document.querySelector("#multiply");
 const divide = document.querySelector("#divide");
-const percentage = document.querySelector("#percentage");
+const remainder = document.querySelector("#remainder");
 const decimal = document.querySelector("#decimal");
 const getResult = document.querySelector("#get_result");
 const clear = document.querySelector("#clear");
@@ -54,7 +54,7 @@ zero.onclick = function(){
 decimal.onclick = function(){
     inputField.value += ".";
 }
-percentage.onclick = function(){
+remainder.onclick = function(){
     inputField.value += "%";
 }
 multiply.onclick = function(){
