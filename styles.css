@@ -31,6 +31,6 @@
 #clear {
     background-color: #A07178;
 }
-#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero {
+.number {
     background-color:lightgrey;
 }
